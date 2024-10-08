@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WelcomePage from './componets/welcomePage';
+import Species from './componets/species';
+import Neutered from './componets/neutered';
+import Age from './componets/age';
+import Weight from './componets/weight';
 import InputForm from './componets/input';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <WelcomePage />
+    <Species />
+    <Neutered />
+    <Age />
+    <Weight />
     <InputForm />
   </React.StrictMode>
 );
